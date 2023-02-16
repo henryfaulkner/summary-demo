@@ -1,0 +1,18 @@
+@import "../shared/styles/_variables.scss";
+
+
+.button-container {
+    background-color: $now-green-secondary;
+    color: $now-green-primary;
+    padding: 10px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    margin: 10px 0px;
+}
+
+.button-container:hover {
+    background-color: $now-green-primary;
+    color: $white;
+}

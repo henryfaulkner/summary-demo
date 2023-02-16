@@ -1,0 +1,40 @@
+@import "../shared/styles/_variables.scss";
+
+.round-white-container {
+    border-radius: 30px;
+    padding: 30px;
+    margin: 20px 40px;
+    height: fit-content;
+    width: 700px;
+    background-color: $white;
+    display: flex;
+    flex-direction: column;
+    filter: drop-shadow(0px 1px 6px #999999);
+}
+
+.round-grey-container {
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: $soft-white;
+    filter: drop-shadow(0px 1px 6px #999999);
+    margin: 10px;
+    padding: 10px 0px;
+}
+
+.module-header {
+    align-self: center;
+}
+
+.inline-text {
+    display: flex;
+    flex-direction: row;
+    margin: 5px 0;
+}
+
+.field-value {
+    position: absolute;
+    left: 400px;
+}

@@ -1,0 +1,46 @@
+@import "shared/styles/_variables.scss";
+
+.main {
+    height: 100%;
+    width: 100%;
+    background: url("../assets/dalle-sunnyoffice.png");
+    background-size: cover;
+	position: fixed;
+	z-index: -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    height: 90%;
+    width: 80%;
+    background-color: $soft-white;
+    border-radius: 60px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 0;
+}
+
+.sidebar {
+    background-color: $now-green-primary;
+    width: 10%;
+    height: 100%;
+    border-top-left-radius: 60px;
+    border-bottom-left-radius: 60px;
+    margin-right: 10%;
+}
+
+.modules {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    //padding-left: 15%;
+    padding-right: 5%;
+    margin: 20px 15px;
+}
+
+p {
+    margin: 0;
+}
