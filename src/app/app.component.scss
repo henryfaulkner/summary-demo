@@ -1,5 +1,9 @@
 @import "./shared/styles/utility/utility";
 
+h1, h3 {
+    color: $now-green-primary;
+}
+
 .main {
     height: 100%;
     width: 100%;

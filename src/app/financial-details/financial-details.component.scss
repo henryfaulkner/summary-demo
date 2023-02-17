@@ -1,5 +1,9 @@
 @import "../shared/styles/utility/utility";
 
+h2, p {
+    color: $now-green-primary;
+}
+
 .round-white-container {
     border-radius: 30px;
     padding: 30px;
