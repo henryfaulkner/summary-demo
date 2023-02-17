@@ -7,7 +7,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { ScrollableWrapperComponent } from './scrollable-wrapper/scrollable-wrapper.component';
 import { CustomerPortfolioComponent } from './customer-portfolio/customer-portfolio.component';
 import { FinancialDetailsComponent } from './financial-details/financial-details.component';
-import { SecondaryGreenButtonComponent } from './secondary-green-button/secondary-green-button.component';
+import { SecondaryGreenButtonComponent } from './shared/components/secondary-green-button/secondary-green-button.component';
+import { SidebarComponent } from './sidebar/sidebar.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { SecondaryGreenButtonComponent } from './secondary-green-button/secondar
     ScrollableWrapperComponent,
     CustomerPortfolioComponent,
     FinancialDetailsComponent,
-    SecondaryGreenButtonComponent
+    SecondaryGreenButtonComponent,
+    SidebarComponent
   ],
   imports: [
     BrowserModule,

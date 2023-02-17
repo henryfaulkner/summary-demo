@@ -1,4 +1,4 @@
-@import "shared/styles/_variables.scss";
+@import "./shared/styles/utility/utility";
 
 .main {
     height: 100%;
@@ -23,11 +23,6 @@
 }
 
 .sidebar {
-    background-color: $now-green-primary;
-    width: 10%;
-    height: 100%;
-    border-top-left-radius: 60px;
-    border-bottom-left-radius: 60px;
     margin-right: 10%;
 }
 

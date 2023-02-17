@@ -1,0 +1,48 @@
+@import "../shared/styles/utility/utility";
+
+.container {
+    background-color: $now-green-primary;
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 60px;
+    border-bottom-left-radius: 60px;
+    margin-right: 10%;
+    padding: 0;
+}
+
+.logo {
+    background-color: $now-green-secondary;
+    width: 100%;
+    border-top-left-radius: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+}
+
+.icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    text-align: center;
+    color: $now-green-secondary;
+    border-radius: 15px;
+    padding: 8px 0;
+    
+    p {
+        margin: 0;
+    }
+}
+
+.icon:hover {
+    background-color: $soft-white;
+}
