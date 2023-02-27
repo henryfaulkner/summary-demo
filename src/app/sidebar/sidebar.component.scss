@@ -34,10 +34,14 @@
     align-items: center;
     width: 70%;
     text-align: center;
-    color: $now-green-secondary;
+    color: $white;
     border-radius: 15px;
     padding: 8px 0;
     margin: 4px 0;
+
+    img {
+        margin-bottom: -10px;
+    }
     
     p {
         font-size: $font-size-small;
@@ -48,4 +52,8 @@
 .icon:hover {
     background-color: $soft-white;
     cursor: pointer;
+
+    p {
+        color: $now-green-primary;
+    }
 }

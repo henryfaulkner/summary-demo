@@ -6,30 +6,38 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./sidebar.component.scss']
 })
 export class SidebarComponent implements OnInit {
-  constructor() { }
-
   ngOnInit(): void {
   }
 
   logoPath = "../../assets/Now_Flower_Logo.png";
   icons = [{
     name: "Home",
-    imagePath: "../../assets/Home.png"
+    changeSrc: false,
+    imagePath: "../../assets/NoBg-Icons/Home(White).png",
+    imagePathHover: "../../assets/NoBg-Icons/Home(Green).png"
   },
   {
     name: "Business Profile",
-    imagePath: "../../assets/business-profile(green-orange).png"
+    changeSrc: false,
+    imagePath: "../../assets/NoBg-Icons/Business_Profile(White).png",
+    imagePathHover: "../../assets/NoBg-Icons/Business_Profile(Green).png"
   },
   {
     name: "Financial Details",
-    imagePath: "../../assets/financial-details(green).png"
+    changeSrc: false,
+    imagePath: "../../assets/NoBg-Icons/Financial_Profile(White).png",
+    imagePathHover: "../../assets/NoBg-Icons/Financial_Profile(Green).png"
   },
   {
     name: "Customer Portfolio",
-    imagePath: "../../assets/customer-portfolio(green).png"
+    changeSrc: false,
+    imagePath: "../../assets/NoBg-Icons/Customer_Portfolio(White).png",
+    imagePathHover: "../../assets/NoBg-Icons/Customer_Portfolio(Green).png"
   },
   {
     name: "Documents",
-    imagePath: "../../assets/Documents.png"
+    changeSrc: false,
+    imagePath: "../../assets/NoBg-Icons/Documents(White).png",
+    imagePathHover: "../../assets/NoBg-Icons/Documents(Green).png"
   }];
 }
